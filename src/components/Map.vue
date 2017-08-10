@@ -93,6 +93,7 @@ const props = {
   },
   options: {
     type: Object,
+    custom: true,
     default: () => ({}),
   },
 };
@@ -186,6 +187,9 @@ export default {
     },
     setCrs(newVal, oldVal) {
       console.log('Changing CRS is not yet supported by Leaflet');
+    },
+    setOptions (newVal, oldVal) {
+      this.options = newVal;
     },
     fitBounds(bounds) {
       this.mapObject.fitBounds(bounds);
