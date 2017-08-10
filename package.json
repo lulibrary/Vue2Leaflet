@@ -1,6 +1,6 @@
 {
   "name": "@lulibrary/vue2-leaflet",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Vue2 leaflet library",
   "contributors": ["Mickael Bouchaud", "Stephen Robinson", "Lancaster University Library"],
   "license": "MIT",
